@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    background-image: url(/imagen/valeria-nikitina-U_hxFoL6hkM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    border: 1px solid whitesmoke;
+    width: 500px;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.315);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 10px 20px 5px rgb(245, 245, 245);
+}
+
+.h1 {
+    font-size: 50px;
+    text-align: center;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-bottom: 45px;
+}
+
+#input {
+    display: block;
+    height: 30px;
+    width: 300px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    margin: 20px 0px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+#btn {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #e0e0e0;
+    background: linear-gradient(to left, #585858, #ffffff);
+    cursor: pointer;
+    transition: all .7s;
+}
+
+#btn:hover {
+    border-color: #8d8d8d;
+    background: linear-gradient(to right, #585858, #ffffff);
+}
